@@ -5,7 +5,7 @@ This is a crystal wrapper around the awesome [termbox2](https://github.com/termb
 The following code shows you some bits of what this wrapper can do.
 
 ```crystal
-require "termbox"
+require "termbox2"
 
 Tb.init
 Tb.set_cursor 0, 1
@@ -59,8 +59,8 @@ dependencies:
 
 ... And you're *ready* to code!
 
-## Differences from termbox
-Termbox provides a powerful interface with just a few functions.
+## Differences from termbox2
+Termbox2 provides a powerful interface with just a few functions.
 This wrapper builds on that and simplifies the API even more, to suit the
 *"crystal"* style of coding:
 
