@@ -1,0 +1,10 @@
+name: termbox
+version: 0.1.0
+
+authors:
+  - themisch
+
+description: |
+  A binding to the termbox2 library.
+
+license: Unlicense
