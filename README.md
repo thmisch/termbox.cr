@@ -1,8 +1,8 @@
 # termbox.cr
-This is a crystal wrapper around the termbox library.
+This is a crystal wrapper around the awesome [termbox2](https://github.com/termbox/termbox2) library.
 
-## Example
-The following code includes a bit of everything what termbox offers.
+## Examples
+The following code shows you some bits of what this wrapper can do.
 
 ```crystal
 require "termbox"
@@ -49,7 +49,7 @@ make libtermbox.so
 sudo make install clean
 ```
 
-when done, add the following to your project's `shard.yml`: 
+Finished? Cool. Now add the following to your project's `shard.yml`: 
 
 ```yaml
 dependencies:
@@ -57,15 +57,15 @@ dependencies:
     github: thmisch/termbox.cr
 ```
 
-Ready to code!
+... And you're *ready* to code!
 
 ## Differences from termbox
-termbox provides a really powerful interface with just a few functions,
-this wrapper builds on that and simplifies the API even more, to suit the
+Termbox provides a powerful interface with just a few functions.
+This wrapper builds on that and simplifies the API even more, to suit the
 *"crystal"* style of coding:
 
 - Methods are provided in a class
-- cooler method names
+- Obvious method names
 - Default values for these methods
 
 ## ToDo's
