@@ -1,10 +1,10 @@
-name: termbox2
-version: 0.1.0
+name: termbox
+version: 0.1.1
 
 authors:
   - themisch
 
 description: |
-  A binding for the termbox2 library.
+  A binding to the termbox2 library.
 
 license: Unlicense

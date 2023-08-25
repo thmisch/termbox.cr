@@ -5,7 +5,7 @@ This is a crystal wrapper around the awesome [termbox2](https://github.com/termb
 The following code shows you some bits of what this wrapper can do.
 
 ```crystal
-require "termbox2"
+require "termbox"
 
 Tb.init
 Tb.set_cursor 0, 1
@@ -43,7 +43,7 @@ system. This is how I do it:
 ```sh
 git clone https://github.com/termbox/termbox2
 cd termbox2
-make libtermbox.so
+make libtermbox2.so
 
 # install the library system wide
 sudo make install clean
@@ -57,7 +57,7 @@ dependencies:
     github: thmisch/termbox.cr
 ```
 
-... And you're *ready* to code!
+… And you're *ready* to code!
 
 ## Differences from termbox2
 Termbox2 provides a powerful interface with just a few functions.
@@ -69,7 +69,7 @@ This wrapper builds on that and simplifies the API even more, to suit the
 - Default values for these methods
 
 ## ToDo's
-There's still some functionality that's missing, and i'm working on adding that.
+There's still *a lot* of missing functionality. I'm working on adding that.
 
 ## License
 Unlicense

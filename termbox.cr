@@ -1,4 +1,4 @@
-@[Link("termbox")]
+@[Link("termbox2")]
 
 lib LibTermbox
     struct TbEvent
